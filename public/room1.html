@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Room 1</title>
+  </head>
+  <body>
+    <h2 id="roomTitle">Room 1</h2>
+    <input id="username" placeholder="username" />
+    <button disabled id="joinBtn">Join Room</button>
+    <button id="leaveBtn" style="display: none;">Leave</button>
+    <ul id="studentList">
+    </ul>
+    <script src="/socket.io/socket.io.js"></script>
+    <script charset="utf-8">
+      const ROOM = 'room1';
+    </script>
+    <script src="/js/room.js" charset="utf-8"></script>
+  </body>
+</html>
